@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+  content="width=device-width,
+  initial-scale=1.0">
+    
+    <title>Baby World Store | Kids Fashion & Toys</title>
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+    
+  <body>
+
+      <!--NAVBAR-->
+      <header class="navbar">
+
+          <div class="logo">
+             🧸 Baby <span>World</span>
+              </div>
+
+          <nav>
+              <a herf="#home">Home</a>
+              <a
+   href="#categories">Categories</a>
+              <a href="#products">Products</a>
+              <a href="#about">About</a>
+              <a href="#contact">Contact</a>
+              </nav>
+
+          <button class="cart-button">
+              🛒Cart <span
+   id="cart-count">0</span>
+              </button>
+
+          </header>
+
+      <!--HERO SECTION-->
+      <section class="hero" id="home">
+
+          <div class="hero-content">
+
+              <p class="small-title">
+                  ✴ WELCOME TO BABY WORLD
+                  </p>
+
+              <h1>
+                  Everything For
+                  <span>Little Stars</span>
+              </h1>
+
+              <p class="hero-description">
+                  Discover beautiful clothes,shoes,toys and accessories 
+     for newborns and kids up to 12 years.
+                 </p>
+              <div class="hero-buttons">
+
+                  <a href="#products"
+     class="btn primary-btn">
+                      Shop Now 🠆
+                      </a>
+
+                  <a href="#categories"
+     class="btn secondary-btn">
+                      Explore Categories
+                      </a>
+
+                  </div>
+
+              <div class="features">
+                  
+                  <div> ⭐ Quality Products</div>
+
+                  <div>🚚 Delivery Across Pakistan</div>
+
+                  <div> 💗 Made For Kids</div>
+
+                  </div>
+
+              </div>
+
+          <!-- 3D PRODUCT CARD -->
+
+          <div class="hero-3d">
+
+              <div class="product-3d">
+
+                  <div class="new-badge">
+                      NEW
+                      </div>
+
+                  <div class="toy">
+                      🧸
+                  </div>
+
+                  <h2>
+                      Baby World
+                  </h2>
+
+                  <p>
+                      Happy Little Shoppers
+                  </p>
+
+                  <div class="mini-products">
+
+                      <span>👗</span>
+                      <span>🥿</span>
+                      <span>🧸</span>
+                      <span>🍼</span>
+
+                      </div>
+                  
+                  </div>
+              
+              </div>
+
+          </section>
+
+      <!--CATEGORIES-->
+
+      <section class="section"
+          id="categories">
+
+          <div class="section-title">
+
+              <p>
+                  SHOP BY CATEGORY
+              </p>
+
+              <h2>
+                  Find Something Special
+              </h2>
+
+              <span>
+                  Choose from our kids collection.
+              </span>
+
+              </div>
+
+          <div class="category-grid">
+
+              <div class="category-card clothes">
+
+                  <div class="category-icon">
+                            👗  
+                      </div>
+
+                  <h3>
+                      Kids Clothes
+                  </h3>
+
+                  <p>
+                      Newbron to 12 Years
+                  </p>
+                  
+                  </div>
+              
+              <div class="category-card shoes">
+
+                  <div class="category-icon">
+                      🥿
+                      </div>
+
+                  <h3>
+                      Kids Shoes
+                  </h3>
+
+                  <p>
+                      Comfortable &  stylish
+                  </p>
+
+                  </div>
+
+              <div class="category-card toys">
+
+                  <div class="category-icon">
+                      🧸
+                      </div>
+
+                  <h3>
+                      Toys
+                  </h3>
+
+                  <p>
+                      Fun For Little Ones
+                  </p>
+
+                  </div>
+
+              <div class="category-card accessories">
+
+                  <div class="category-icon">
+                      🍼
+                      </div>
+
+                  <h3>
+                      Accessories
+                  </h3>
+
+                  <p>
+                      Cute Everyday Essentials
+                  </p>
+
+                  </div>
+              
+              </div>
+
+          </section>
+
+      <!--PRODUCTS--> 
+
+      <section class="section products"
+          id="products">
+          <div class="section-title">
+              <p>
+                  FEATURED COLLECTION
+              </p>
+
+              <h2>
+                  Popular Products
+              </h2>
+              
+              <span>
+                  Beautiful products for your little ones.
+              </span>
+
+              </div>
+
+          <div class="product-grid">
+
+              <!--PRODUCT 1 -->
+
+              <div class="product-card">
+
+                  <div class="product-image pink">
+                      👗
+
+                      <span class="badge">
+                          NEW 
+                          </span>
+                      </div>
+
+                  <div class="product-info">
+
+                      <small>
+                          KIDS CLOTHES
+                      </small>
+
+                      <h3>
+                          Lovely Kids Dress
+                      </h3>
+
+                      <div 
+                          class="product-bottom">
+
+                          <strong>
+                              Rs. 1,999
+                          </strong>
+
+                          <button
+                              onclick="addToCart()">
+                              Add +
+                              </button>
+
+                          </div>
+                      
+                      </div>
+
+                  </div>
+
+              <!--PRODUCT 2 -->
+
+              <div class="product-card">
+
+                  <div class="product-image blue">
+                      🥿
+                      </div>
+
+                  <div class="product-info">
+
+                      <small>
+                          KIDS SHOES
+                      </small>
+                      <h3>
+                          Comfort Kids Shoes
+                      </h3>
+
+                      <div
+                          class="product-bottom">
+
+                          <strong>
+                              Rs.2,499
+                          </strong>
+
+                          <button
+                              onclick="addTOCart()">
+                              Add +
+                              </button>
+
+                          </div>
+
+                      </div>
+
+                  </div>
+
+              <!--PRODUCT 3 -->
+
+              <div class="product-card">
+
+                  <div class="product-image yellow">
+                      🧸
+
+                      <span class="badge">
+                          Hot
+                          </span>
+
+                      </div>
+
+                  <div class="product-info">
+
+                      <small>
+                          TOYS
+                      </small>
+
+                      <h3>
+                          Soft Teddy Bear 
+                      </h3>
+
+                      <div
+                          class="product-bottom">
+
+                          <strong>
+                              Rs.1,499
+                          </strong>
+
+                          <button
+                              onclick="addToCart()">
+                              Add +
+                              </button>
+                          
+                          </div>
+
+                      </div>
+
+                  </div>
+
+              <!--PRODUCT 4 -->
+
+              <div class="product-card">
+
+                  <div class="product-image purple">
+                      🍼
+                      </div>
+
+                  <div class="product-info">
+                      <small>
+                          ACCESSORIES
+                      </small>
+
+                      <h3>
+                          Kids Mini Backpack
+                      </h3>
+
+                      <div class="product-bottom">
+                          
+                          <strong>
+                              Rs.1,799
+                          </strong>
+
+                          <button
+             onclick="addToCart()">
+                              Add +
+                              </button>
+
+                          </div>
+
+                      </div>
+
+                  </div>
+
+              </div>
+          
+          </section>
+
+      <!--3D SECTION-->
+
+      <section class="three-d-section">
+
+          <div class="three-d-content">
+
+              <div>
+                  <p class="small-title">
+                      NEXT LEVEL DESIGN 
+                      </p>
+
+                  <h2>
+                      Wellcom To The
+                      <span>3D World</span>
+                  </h2>
+                  
+                  <p>
+                      Baby World Store ko hum ak modern ore premium 
+                      online shopping experience mai tabdil kr ry hai
+                  </p> 
+
+                  <a href="#product"
+                      class="btn primary-btn">
+                      Explore Store 🠦
+                      </a>
+
+                  </div>
+
+              <!-- 3D CUBE -->
+
+              <div class="cube-area">
+
+                  <div class="cube>
+
+                      <div class="cube-face front">
+                      🧸
+                      </div>
+
+                  <div class="cube-face back">
+                      🥿
+
+                      <div class="cube-face right">
+                          👗
+                          </div>
+
+                      <div class="cube-face left">
+                          🍼
+
+                          <div class="cube-face top">
+                              ⭐
+                              </div>
+
+                          <div class=" cube-face bottom">
+                              💗
+                              </div>
+
+                          </div>
+
+                      </div>
+
+                  </div>
+
+              </section>
+
+      <!--ABOUT -->
+
+      <section class="section about"
+          id="about">
+
+          <div>
+
+              <p class="small-title"> 
+                  ABOUT BABY WORLD
+                  </p>
+              
+              <h2>
+                  Made For Little Smiles 💗
+              </h2>
+
+              </div>
+
+          <p>
+              Baby World Store bachoo ky clothes,shoes,toys ore accessories parents ky liyae banaya jara hai. humra muqsad ake asan ore kubsorat trusted online shopping experience dena hai.
+              </p>
+          
+          </section>
+
+      <!--CONTACT -->
+
+      <section class="section contact"
+          id="contact">
+
+          <div class="section-title">
+          <p>
+              CONTACT US
+          </p>
+              <h2>
+                  Let's Build Baby World
+              </h2>
+              <span>
+                  Your trusted kids shopping destination. 
+              </span>
+              
+              </div> 
+
+          <div class="contact-grid">
+
+              <div>
+                  🛍
+                  <h3>
+                      Product Catalog
+                  </h3>
+              </div>
+              <div>
+                  🔵
+                  <h3>
+                      Online Store
+                  </h3>
+              </div>
+
+              <div>
+                  📱
+                  <h3>
+                      Social  media
+                  </h3>
+              </div>
+
+              <div>
+                  📢
+                  <h3>
+                      Advertising
+                  </h3>
+              </div>
+
+              </div>
+          
+          </section>
+
+      <!--FOOTER -->
+
+      <footer>
+          <div class="logo">
+              🧸 Baby <span>World</span>
+              </div>
+
+          <p>
+              @ 2026 Baby World Store
+          </p>
+      </footer>
+
+      <!--JAVASCRIPT -->
+
+      <script src="script.js"></script>
+
+  </body>
+    
+</html>
