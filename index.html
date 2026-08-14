@@ -1,542 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-  content="width=device-width,
-  initial-scale=1.0">
-    
-    <title>Baby World Store | Kids Fashion & Toys</title>
-
-    <link rel="stylesheet" href="style.css">
-  </head>
-    
-  <body>
-
-      <!--NAVBAR-->
-      <header class="navbar">
-
-          <div class="logo">
-             🧸 Baby <span>World</span>
-              </div>
-
-          <nav>
-              <a herf="#home">Home</a>
-              <a
-   href="#categories">Categories</a>
-              <a href="#products">Products</a>
-              <a href="#about">About</a>
-              <a href="#contact">Contact</a>
-              </nav>
-
-          <button class="cart-button">
-              🛒Cart <span
-   id="cart-count">0</span>
-              </button>
-
-          </header>
-
-      <!--HERO SECTION-->
-      <section class="hero" id="home">
-
-          <div class="hero-content">
-
-              <p class="small-title">
-                  ✴ WELCOME TO BABY WORLD
-                  </p>
-
-              <h1>
-                  Everything For
-                  <span>Little Stars</span>
-              </h1>
-
-              <p class="hero-description">
-                  Discover beautiful clothes,shoes,toys and accessories 
-     for newborns and kids up to 12 years.
-                 </p>
-              <div class="hero-buttons">
-
-                  <a href="#products"
-     class="btn primary-btn">
-                      Shop Now 🠆
-                      </a>
-
-                  <a href="#categories"
-     class="btn secondary-btn">
-                      Explore Categories
-                      </a>
-
-                  </div>
-
-              <div class="features">
-                  
-                  <div> ⭐ Quality Products</div>
-
-                  <div>🚚 Delivery Across Pakistan</div>
-
-                  <div> 💗 Made For Kids</div>
-
-                  </div>
-
-              </div>
-
-          <!-- 3D PRODUCT CARD -->
-
-          <div class="hero-3d">
-
-              <div class="product-3d">
-
-                  <div class="new-badge">
-                      NEW
-                      </div>
-
-                  <div class="toy">
-                      🧸
-                  </div>
-
-                  <h2>
-                      Baby World
-                  </h2>
-
-                  <p>
-                      Happy Little Shoppers
-                  </p>
-
-                  <div class="mini-products">
-
-                      <span>👗</span>
-                      <span>🥿</span>
-                      <span>🧸</span>
-                      <span>🍼</span>
-
-                      </div>
-                  
-                  </div>
-              
-              </div>
-
-          </section>
-
-      <!--CATEGORIES-->
-
-      <section class="section"
-          id="categories">
-
-          <div class="section-title">
-
-              <p>
-                  SHOP BY CATEGORY
-              </p>
-
-              <h2>
-                  Find Something Special
-              </h2>
-
-              <span>
-                  Choose from our kids collection.
-              </span>
-
-              </div>
-
-          <div class="category-grid">
-
-              <div class="category-card clothes">
-
-                  <div class="category-icon">
-                            👗  
-                      </div>
-
-                  <h3>
-                      Kids Clothes
-                  </h3>
-
-                  <p>
-                      Newbron to 12 Years
-                  </p>
-                  
-                  </div>
-              
-              <div class="category-card shoes">
-
-                  <div class="category-icon">
-                      🥿
-                      </div>
-
-                  <h3>
-                      Kids Shoes
-                  </h3>
-
-                  <p>
-                      Comfortable &  stylish
-                  </p>
-
-                  </div>
-
-              <div class="category-card toys">
-
-                  <div class="category-icon">
-                      🧸
-                      </div>
-
-                  <h3>
-                      Toys
-                  </h3>
-
-                  <p>
-                      Fun For Little Ones
-                  </p>
-
-                  </div>
-
-              <div class="category-card accessories">
-
-                  <div class="category-icon">
-                      🍼
-                      </div>
-
-                  <h3>
-                      Accessories
-                  </h3>
-
-                  <p>
-                      Cute Everyday Essentials
-                  </p>
-
-                  </div>
-              
-              </div>
-
-          </section>
-
-      <!--PRODUCTS--> 
-
-      <section class="section products"
-          id="products">
-          <div class="section-title">
-              <p>
-                  FEATURED COLLECTION
-              </p>
-
-              <h2>
-                  Popular Products
-              </h2>
-              
-              <span>
-                  Beautiful products for your little ones.
-              </span>
-
-              </div>
-
-          <div class="product-grid">
-
-              <!--PRODUCT 1 -->
-
-              <div class="product-card">
-
-                  <div class="product-image pink">
-                      👗
-
-                      <span class="badge">
-                          NEW 
-                          </span>
-                      </div>
-
-                  <div class="product-info">
-
-                      <small>
-                          KIDS CLOTHES
-                      </small>
-
-                      <h3>
-                          Lovely Kids Dress
-                      </h3>
-
-                      <div 
-                          class="product-bottom">
-
-                          <strong>
-                              Rs. 1,999
-                          </strong>
-
-                          <button
-                              onclick="addToCart()">
-                              Add +
-                              </button>
-
-                          </div>
-                      
-                      </div>
-
-                  </div>
-
-              <!--PRODUCT 2 -->
-
-              <div class="product-card">
-
-                  <div class="product-image blue">
-                      🥿
-                      </div>
-
-                  <div class="product-info">
-
-                      <small>
-                          KIDS SHOES
-                      </small>
-                      <h3>
-                          Comfort Kids Shoes
-                      </h3>
-
-                      <div
-                          class="product-bottom">
-
-                          <strong>
-                              Rs.2,499
-                          </strong>
-
-                          <button
-                              onclick="addTOCart()">
-                              Add +
-                              </button>
-
-                          </div>
-
-                      </div>
-
-                  </div>
-
-              <!--PRODUCT 3 -->
-
-              <div class="product-card">
-
-                  <div class="product-image yellow">
-                      🧸
-
-                      <span class="badge">
-                          Hot
-                          </span>
-
-                      </div>
-
-                  <div class="product-info">
-
-                      <small>
-                          TOYS
-                      </small>
-
-                      <h3>
-                          Soft Teddy Bear 
-                      </h3>
-
-                      <div
-                          class="product-bottom">
-
-                          <strong>
-                              Rs.1,499
-                          </strong>
-
-                          <button
-                              onclick="addToCart()">
-                              Add +
-                              </button>
-                          
-                          </div>
-
-                      </div>
-
-                  </div>
-
-              <!--PRODUCT 4 -->
-
-              <div class="product-card">
-
-                  <div class="product-image purple">
-                      🍼
-                      </div>
-
-                  <div class="product-info">
-                      <small>
-                          ACCESSORIES
-                      </small>
-
-                      <h3>
-                          Kids Mini Backpack
-                      </h3>
-
-                      <div class="product-bottom">
-                          
-                          <strong>
-                              Rs.1,799
-                          </strong>
-
-                          <button
-             onclick="addToCart()">
-                              Add +
-                              </button>
-
-                          </div>
-
-                      </div>
-
-                  </div>
-
-              </div>
-          
-          </section>
-
-      <!--3D SECTION-->
-
-      <section class="three-d-section">
-
-          <div class="three-d-content">
-
-              <div>
-                  <p class="small-title">
-                      NEXT LEVEL DESIGN 
-                      </p>
-
-                  <h2>
-                      Wellcom To The
-                      <span>3D World</span>
-                  </h2>
-                  
-                  <p>
-                      Baby World Store ko hum ak modern ore premium 
-                      online shopping experience mai tabdil kr ry hai
-                  </p> 
-
-                  <a href="#product"
-                      class="btn primary-btn">
-                      Explore Store 🠦
-                      </a>
-
-                  </div>
-
-              <!-- 3D CUBE -->
-
-              <div class="cube-area">
-
-                  <div class="cube>
-
-                      <div class="cube-face front">
-                      🧸
-                      </div>
-
-                  <div class="cube-face back">
-                      🥿
-
-                      <div class="cube-face right">
-                          👗
-                          </div>
-
-                      <div class="cube-face left">
-                          🍼
-
-                          <div class="cube-face top">
-                              ⭐
-                              </div>
-
-                          <div class=" cube-face bottom">
-                              💗
-                              </div>
-
-                          </div>
-
-                      </div>
-
-                  </div>
-
-              </section>
-
-      <!--ABOUT -->
-
-      <section class="section about"
-          id="about">
-
-          <div>
-
-              <p class="small-title"> 
-                  ABOUT BABY WORLD
-                  </p>
-              
-              <h2>
-                  Made For Little Smiles 💗
-              </h2>
-
-              </div>
-
-          <p>
-              Baby World Store bachoo ky clothes,shoes,toys ore accessories parents ky liyae banaya jara hai. humra muqsad ake asan ore kubsorat trusted online shopping experience dena hai.
-              </p>
-          
-          </section>
-
-      <!--CONTACT -->
-
-      <section class="section contact"
-          id="contact">
-
-          <div class="section-title">
-          <p>
-              CONTACT US
-          </p>
-              <h2>
-                  Let's Build Baby World
-              </h2>
-              <span>
-                  Your trusted kids shopping destination. 
-              </span>
-              
-              </div> 
-
-          <div class="contact-grid">
-
-              <div>
-                  🛍
-                  <h3>
-                      Product Catalog
-                  </h3>
-              </div>
-              <div>
-                  🔵
-                  <h3>
-                      Online Store
-                  </h3>
-              </div>
-
-              <div>
-                  📱
-                  <h3>
-                      Social  media
-                  </h3>
-              </div>
-
-              <div>
-                  📢
-                  <h3>
-                      Advertising
-                  </h3>
-              </div>
-
-              </div>
-          
-          </section>
-
-      <!--FOOTER -->
-
-      <footer>
-          <div class="logo">
-              🧸 Baby <span>World</span>
-              </div>
-
-          <p>
-              @ 2026 Baby World Store
-          </p>
-      </footer>
-
-      <!--JAVASCRIPT -->
-
-      <script src="script.js"></script>
-
-  </body>
-    
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Baby World — 3D Shopping Experience</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:Arial,sans-serif;color:#20283b;background:#fff;overflow-x:hidden}.top{background:#20283b;color:#fff;text-align:center;font-size:11px;padding:8px;letter-spacing:.4px}header{height:76px;display:flex;align-items:center;justify-content:space-between;padding:0 7%;position:sticky;top:0;z-index:20;background:#ffffffee;backdrop-filter:blur(15px);border-bottom:1px solid #eee}.logo{font-size:27px;font-weight:800;color:#20283b;text-decoration:none}.logo span{color:#ef4b99}nav{display:flex;gap:28px}nav a{font-size:13px;font-weight:bold;color:#596579;text-decoration:none}nav a:hover{color:#ef4b99}.cart-btn{border:0;background:#20283b;color:#fff;border-radius:22px;padding:11px 15px;cursor:pointer}.cart-btn b{background:#ef4b99;border-radius:50%;padding:3px 7px}.hero{min-height:590px;display:grid;grid-template-columns:1fr 1fr;padding:65px 8%;background:linear-gradient(120deg,#fff7fb,#fff 45%,#ddf6ff);overflow:hidden}.hero-copy{align-self:center;max-width:620px}.tag{font-size:10px;font-weight:900;letter-spacing:2.5px;color:#ef4b99}.hero h1{font-family:Georgia,serif;font-size:68px;line-height:1.02;margin:17px 0}.hero em,.heading em,.about em{color:#ef4b99;font-style:normal}.hero p{color:#748094;line-height:1.8;max-width:580px;font-size:15px}.buttons{display:flex;gap:12px;margin:26px 0}.main-btn,.outline-btn{display:inline-block;padding:14px 20px;border-radius:14px;text-decoration:none;font-size:12px;font-weight:800;cursor:pointer;border:0}.main-btn{background:linear-gradient(135deg,#ef4295,#ff7fbc);color:#fff;box-shadow:0 7px 0 #c62e76,0 15px 30px #ef429533}.outline-btn{color:#ef4295;background:#fff;border:1px solid #f2d8e5}.checks{display:flex;gap:10px;flex-wrap:wrap}.checks span{font-size:10px;font-weight:bold;color:#657286;background:#fff;padding:9px 11px;border-radius:10px;box-shadow:0 7px 20px #0000000b}.scene{position:relative;min-height:460px;display:grid;place-items:center}.orb{position:absolute;border-radius:50%}.orb1{width:380px;height:380px;background:#fff;box-shadow:0 30px 70px #60798d2b}.orb2{width:120px;height:120px;background:#aee6fa;right:3%;bottom:10%}.ring{position:absolute;width:300px;height:300px;border:2px dashed #efb7d4;border-radius:50%;animation:spin 18s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}.product-podium{position:relative;z-index:3;width:245px;height:330px;transform:rotate(4deg);transition:.5s;filter:drop-shadow(25px 30px 15px #33485833)}.product-podium:hover{transform:rotateY(-15deg) rotateX(6deg) translateY(-14px) scale(1.04)}.podium-top{height:275px;border-radius:30px;background:linear-gradient(145deg,#fff,#ffe4f1);display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:inset -10px -10px 25px #e69bc01c}.podium-top span{position:absolute;top:15px;right:15px;background:#ef4b99;color:#fff;border-radius:8px;padding:5px 8px;font-size:8px;font-weight:bold}.toy{font-size:115px;filter:drop-shadow(8px 12px 5px #0002);animation:float 3s ease-in-out infinite}.podium-top h3{font-family:Georgia,serif;font-size:22px;text-align:center}.stars{color:#f4a92d;margin-top:10px}.podium-base{width:215px;height:50px;background:linear-gradient(#f3b2d2,#d979a9);border-radius:0 0 25px 25px;margin:auto;transform:perspective(100px) rotateX(-15deg);box-shadow:0 20px 20px #0002}@keyframes float{50%{transform:translateY(-10px)}}.float-star{position:absolute;font-size:25px;z-index:5;animation:float 3s infinite}.s1{left:14%;top:18%}.s2{right:8%;bottom:27%}.benefits{display:grid;grid-template-columns:repeat(4,1fr);background:#20283b;color:#fff;padding:25px 8%;gap:15px}.benefits div{text-align:center;border-right:1px solid #ffffff1b;font-size:13px}.benefits div:last-child{border:0}.benefits small{display:block;color:#aeb8c9;font-size:10px;margin-top:4px}.section{padding:85px 7%}.heading{text-align:center;margin-bottom:38px}.heading h2{font-family:Georgia,serif;font-size:45px;margin:9px 0}.heading p{color:#7c8799;font-size:13px}.cat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.cat{border:0;text-align:left;height:265px;border-radius:28px;padding:23px;cursor:pointer;display:flex;flex-direction:column;justify-content:space-between;transition:.35s;box-shadow:0 15px 30px #0000000c}.cat:hover{transform:translateY(-10px) rotateX(4deg) rotateY(-4deg);box-shadow:0 28px 45px #0002}.cat span{font-size:75px;filter:drop-shadow(7px 12px 4px #0002);transition:.4s}.cat:hover span{transform:scale(1.12) rotate(-5deg)}.cat b{font-family:Georgia,serif;font-size:24px}.cat small{color:#687488;font-size:11px}.cat i{font-style:normal;color:#ef4b99;font-weight:bold;font-size:11px}.clothes{background:#ffe9f3}.shoes{background:#e1f6ff}.toys{background:#fff1ce}.accessories{background:#eee6ff}.shop{background:#f8fbff}.filters{display:flex;justify-content:center;gap:8px;margin:30px 0}.filters button{border:1px solid #e8e1e6;background:#fff;border-radius:20px;padding:9px 17px;color:#657185;font-weight:bold;cursor:pointer}.filters button.active,.filters button:hover{background:#ef4b99;color:#fff;border-color:#ef4b99}.products{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.product{background:#fff;border:1px solid #eee8ec;border-radius:24px;padding:11px;transition:.4s}.product:hover{transform:translateY(-10px);box-shadow:0 25px 45px #0002}.pic{height:205px;border-radius:18px;background:linear-gradient(135deg,#fff0f7,#e9f8ff);display:grid;place-items:center;font-size:88px;position:relative;transition:.4s}.product:hover .pic{transform:perspective(700px) rotateY(-7deg) rotateX(4deg)}.badge{position:absolute;top:10px;left:10px;background:#ef4b99;color:#fff;padding:5px 8px;border-radius:8px;font-size:8px;font-weight:bold}.product h3{font-size:14px;margin:14px 4px 5px}.product p{font-size:10px;color:#8791a1;margin:0 4px 12px}.row{display:flex;align-items:center;justify-content:space-between;margin:0 4px}.price{font-weight:900}.add{border:0;background:#20283b;color:#fff;border-radius:10px;padding:9px 12px;font-weight:bold;cursor:pointer}.add:hover{background:#ef4b99}.about{padding:90px 10%;display:grid;grid-template-columns:1fr 1fr;gap:75px;align-items:center;background:linear-gradient(120deg,#fff0f6,#eefaff)}.about-visual{height:360px;border-radius:45% 55% 50% 50%;background:linear-gradient(145deg,#ffd2e6,#c6efff);display:grid;place-items:center;position:relative;box-shadow:20px 30px 50px #0001}.cube{font-size:135px;filter:drop-shadow(15px 20px 5px #0002);animation:float 3s infinite}.about-visual span{position:absolute;bottom:30px;left:35px;color:#e94a97;font-size:10px;font-weight:bold;letter-spacing:2px}.about h2{font-family:Georgia,serif;font-size:44px;margin:10px 0 18px}.about p{color:#778295;line-height:1.8;font-size:14px;max-width:560px}.about-points{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}.about-points span{background:#fff;border-radius:12px;padding:10px;font-size:10px;font-weight:bold}.order-banner{margin:65px 7%;padding:45px 55px;border-radius:30px;background:#20283b;color:#fff;display:flex;align-items:center;justify-content:space-between;box-shadow:0 25px 50px #0002}.order-banner h2{font-family:Georgia,serif;font-size:36px;margin:8px 0}.order-banner p{color:#adb7c8;font-size:12px}footer{background:#151b2a;color:#fff;padding:30px 7%;display:flex;justify-content:space-between;align-items:center;font-size:11px}footer .logo{color:#fff}.modal{display:none;position:fixed;inset:0;background:#101827aa;z-index:100;align-items:center;justify-content:center;padding:20px}.modal-box{width:min(570px,95vw);max-height:90vh;overflow:auto;background:#fff;border-radius:28px;padding:30px;position:relative;box-shadow:0 35px 80px #0005}.modal-box h2{font-family:Georgia,serif;font-size:32px;margin:8px 0 20px}.close{position:absolute;right:15px;top:15px;border:0;width:35px;height:35px;border-radius:50%;background:#ffeaf4;color:#ef4b99;font-size:22px;cursor:pointer}.cart-row{display:grid;grid-template-columns:1fr auto auto auto;gap:10px;align-items:center;padding:13px 0;border-bottom:1px solid #eee;font-size:12px}.qty,.remove{border:0;background:#ffeaf4;color:#ef4b99;border-radius:7px;padding:5px 8px;cursor:pointer}.total{display:flex;justify-content:space-between;font-size:19px;font-weight:bold;margin:20px 0}.total b{color:#ef4b99}.full{width:100%;text-align:center}.modal form{display:grid;gap:10px}.modal input,.modal textarea{width:100%;padding:13px;border:1px solid #e8dfe5;border-radius:12px;font:inherit}.modal textarea{height:90px;resize:none}.secure{font-size:10px;color:#8993a3;margin-top:15px;text-align:center}.empty{text-align:center;padding:30px;color:#7d8899}#toast{position:fixed;right:25px;bottom:25px;background:#20283b;color:#fff;padding:13px 18px;border-radius:12px;box-shadow:0 15px 35px #0003;opacity:0;transform:translateY(15px);transition:.3s;z-index:200;font-size:12px}#toast.show{opacity:1;transform:none}@media(max-width:950px){nav{display:none}.hero{grid-template-columns:1fr;text-align:center}.hero-copy{margin:auto}.hero p{margin:auto}.buttons,.checks{justify-content:center}.scene{height:430px}.cat-grid,.products{grid-template-columns:repeat(2,1fr)}.about{grid-template-columns:1fr;text-align:center}.about-visual{max-width:450px;margin:auto}.about p{margin:auto}.about-points{justify-content:center}}@media(max-width:600px){.hero{padding:50px 5%}.hero h1{font-size:48px}.hero .scene{min-height:380px}.orb1{width:290px;height:290px}.product-podium{transform:scale(.82) rotate(4deg)}.benefits{grid-template-columns:1fr 1fr}.benefits div{border:0}.section{padding:65px 5%}.cat-grid,.products{grid-template-columns:1fr}.filters{overflow:auto;justify-content:flex-start}.order-banner{margin:40px 5%;padding:35px 25px;display:block;text-align:center}.order-banner .main-btn{margin-top:20px}.about{padding:65px 5%}footer{display:block;text-align:center}.cart-row{grid-template-columns:1fr auto}.cart-row strong,.cart-row .remove{justify-self:end}}
+
+.pic img{width:100%;height:100%;object-fit:contain;border-radius:18px;transition:.4s}.product:hover .pic img{transform:scale(1.06) rotate(-2deg)}
+
+.wa-cta{position:fixed;right:22px;bottom:22px;z-index:999}
+.wa-cta button{border:0;border-radius:999px;padding:14px 20px;font-weight:800;font-size:15px;cursor:pointer;background:#25D366;color:#fff;box-shadow:0 12px 30px rgba(0,0,0,.18);transition:.25s}
+.wa-cta button:hover{transform:translateY(-4px) scale(1.03);box-shadow:0 18px 35px rgba(0,0,0,.24)}
+@media(max-width:600px){.wa-cta{right:12px;bottom:12px}.wa-cta button{padding:12px 16px;font-size:14px}}
+
+.business-note{text-align:center;background:#fff1f8;color:#e83f91;font-weight:800;padding:9px 14px;font-size:14px}
+
+</style>
+</head>
+<body>
+<div class="top">✨ Welcome to Baby World • Cash on Delivery Available • Free delivery over Rs. 3,000</div>
+
+<header>
+  <a class="logo" href="#home">🧸 Baby<span>World</span></a>
+  <nav><a href="#home">Home</a><a href="#shop">Shop</a><a href="#categories">Categories</a><a href="#about">About</a></nav>
+  <button class="cart-btn" onclick="openCart()">🛒 Cart <b id="count">0</b></button>
+</header>
+
+<section id="home" class="hero">
+  <div class="hero-copy">
+    <span class="tag">THE 3D LITTLE STARS SHOP</span>
+    <h1>Shopping should<br>feel <em>magical.</em></h1>
+    <p>Discover trending kidswear styles, tiny shoes, playful toys and everyday baby essentials — made for little stars from newborn to 12 years.</p>
+    <div class="buttons"><a class="main-btn" href="#shop">Shop Products →</a><a class="outline-btn" href="#categories">Explore Categories</a></div>
+    <div class="checks"><span>✓ Quality products</span><span>✓ Easy ordering</span><span>✓ Delivery across Pakistan</span></div>
+  </div>
+  <div class="scene">
+    <div class="orb orb1"></div><div class="orb orb2"></div>
+    <div class="ring"></div>
+    <div class="float-star s1">⭐</div><div class="float-star s2">💗</div>
+    <div class="product-podium">
+      <div class="podium-top"><span>NEW</span><div class="toy">🧸</div><h3>Happy Little Star</h3><div class="stars">★★★★★</div></div>
+      <div class="podium-base"></div>
+    </div>
+  </div>
+</section>
+
+<section class="benefits"><div>🚚<b> Fast Delivery</b><small>Across Pakistan</small></div><div>💎<b> Quality First</b><small>Selected with care</small></div><div>🛍️<b> Easy Shopping</b><small>Simple checkout</small></div><div>💗<b> Made for Kids</b><small>Happy little shoppers</small></div></section>
+
+<section id="categories" class="section">
+  <div class="heading"><span class="tag">SHOP BY CATEGORY</span><h2>Choose their <em>happy place</em></h2><p>Tap a category and discover something special.</p></div>
+  <div class="cat-grid">
+    <button class="cat clothes" onclick="filter('Clothes')"><span>👗</span><b>Baby Clothes</b><small>Soft & comfy styles</small><i>Shop →</i></button>
+    <button class="cat shoes" onclick="filter('Shoes')"><span>👟</span><b>Kids Shoes</b><small>For tiny growing feet</small><i>Shop →</i></button>
+    <button class="cat toys" onclick="filter('Toys')"><span>🧸</span><b>Toys</b><small>Play, learn & smile</small><i>Shop →</i></button>
+    <button class="cat accessories" onclick="filter('Accessories')"><span>🍼</span><b>Accessories</b><small>Cute daily essentials</small><i>Shop →</i></button>
+  </div>
+</section>
+
+<section id="shop" class="section shop">
+  <div class="heading"><span class="tag">3D PRODUCT COLLECTION</span><h2>Made to make you <em>smile</em></h2><p>Hover over a product to see the 3D effect. Demo visuals are original illustrations.</p></div>
+  <div class="filters"><button class="active" onclick="filter('All',this)">All</button><button onclick="filter('Clothes',this)">Clothes</button><button onclick="filter('Shoes',this)">Shoes</button><button onclick="filter('Toys',this)">Toys</button><button onclick="filter('Accessories',this)">Accessories</button></div>
+  <div id="products" class="products"></div>
+</section>
+
+<section id="about" class="about">
+  <div class="about-visual"><div class="cube">🧸</div><span>LOVE • PLAY • GROW</span></div>
+  <div><span class="tag">WHY BABY WORLD?</span><h2>A little store with a <em>big heart.</em></h2><p>We want parents to enjoy shopping just as much as kids enjoy their new things. Our goal is simple: beautiful products, friendly prices and an easy ordering experience.</p><div class="about-points"><span>💗 Carefully selected</span><span>⭐ Kid-friendly</span><span>📦 Easy delivery</span></div></div>
+</section>
+
+<section class="order-banner"><div><span class="tag">READY TO SHOP?</span><h2>Bring home a little happiness. 🧸</h2><p>Choose your favorites and place your first order.</p></div><a class="main-btn" href="#shop">Start Shopping →</a></section>
+
+<footer><div class="logo">🧸 Baby<span>World</span></div><p>© 2026 Baby World Store — Happy Little Shoppers 💗</p><p>Pakistan • COD Available</p></footer>
+
+<div id="cartModal" class="modal"><div class="modal-box"><button class="close" onclick="closeCart()">×</button><span class="tag">YOUR SHOPPING BAG</span><h2>Your Cart 🛒</h2><div id="cartItems"></div><div class="total"><span>Total</span><b id="total">Rs. 0</b></div><button class="main-btn full" onclick="checkout()">Continue to Checkout →</button></div></div>
+
+<div id="checkoutModal" class="modal"><div class="modal-box"><button class="close" onclick="closeCheckout()">×</button><span class="tag">CASH ON DELIVERY</span><h2>Complete your order</h2><form onsubmit="placeOrder(event)"><input id="name" required placeholder="Full Name"><input id="phone" required type="tel" placeholder="Phone Number"><input id="city" required placeholder="City"><textarea id="address" required placeholder="Complete Delivery Address"></textarea><button class="main-btn full">Place Order 💗</button></form><p class="secure">🔒 Your order details stay in your browser demo.</p></div></div>
+
+<div id="toast"></div>
+<script>
+const IMAGE_DATA={"bottle.svg":"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MDAgNTAwIj48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgcng9IjYwIiBmaWxsPSIjZWZmYWZmIi8+PHBhdGggZD0iTTIwNSAxMTBoOTB2NTVoLTkweiIgZmlsbD0iIzhlZDJmMSIvPjxwYXRoIGQ9Ik0yMjAgODBoNjB2MzVoLTYweiIgZmlsbD0iIzVmYjZkZCIvPjxyZWN0IHg9IjE2NSIgeT0iMTU1IiB3aWR0aD0iMTcwIiBoZWlnaHQ9IjI0NSIgcng9IjQ1IiBmaWxsPSIjZmZmIiBzdHJva2U9IiM3MGM4ZWMiIHN0cm9rZS13aWR0aD0iOCIvPjxwYXRoIGQ9Ik0xNzAgMjUwaDE2MHYxMDBIMTcweiIgZmlsbD0iI2JjZWNmZiIvPjxjaXJjbGUgY3g9IjI1MCIgY3k9IjI4NSIgcj0iMzUiIGZpbGw9IiNmZjgyYjkiLz48cGF0aCBkPSJNMjM1IDI4NXExNS0yNSAzMCAwcS0xNSAzMC0zMCAwIiBmaWxsPSIjZmZmIi8+PHRleHQgeD0iMjUwIiB5PSI0NTUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtc2l6ZT0iMjgiIGZpbGw9IiMzZDliY2EiPkJBQlkgQk9UVExFPC90ZXh0Pjwvc3ZnPg==",
+"cap.svg":"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MDAgNTAwIj48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgcng9IjYwIiBmaWxsPSIjZmZmMWY3Ii8+PHBhdGggZD0iTTEyNSAyNzVxMTUtMTQwIDEyNS0xNTB0MTI1IDE1MHoiIGZpbGw9IiNmZjcyYjAiLz48cGF0aCBkPSJNMTI1IDI3NXExMjUtNDUgMjUwIDB2NTVIMTI1eiIgZmlsbD0iI2VmNGE5OSIvPjxjaXJjbGUgY3g9IjI1MCIgY3k9IjE1NSIgcj0iMzUiIGZpbGw9IiNmZmQwMmYiLz48cGF0aCBkPSJNMjI1IDE1MGg1ME0yNTAgMTI1djUwIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iOCIvPjx0ZXh0IHg9IjI1MCIgeT0iNDIwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjI4IiBmaWxsPSIjZTgzZjkxIj5MSVRUTEUgU1RBUiBDQVA8L3RleHQ+PC9zdmc+",
+"blue-coord.svg":"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MDAgNTAwIj48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgcng9IjYwIiBmaWxsPSIjZWVmOWZmIi8+PHBhdGggZD0iTTE0NSAxMzBsNzAtNDVoNzBsNzAgNDUtMzAgOTBoLTQwdjE3NUgyMTVWMjIwaC00MHoiIGZpbGw9IiM4MGM4ZWYiLz48cGF0aCBkPSJNMjE1IDg1cTM1IDQwIDcwIDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzRhOWJjOSIgc3Ryb2tlLXdpZHRoPSI5Ii8+PHBhdGggZD0iTTE5MCAyMjBoMTIwIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iOSIvPjx0ZXh0IHg9IjI1MCIgeT0iNDUwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjI3IiBmaWxsPSIjMzI4N2JiIj5LSURTIENPLU9SRCBTRVQ8L3RleHQ+PC9zdmc+",
+"pink-sneakers.svg":"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MDAgNTAwIj48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgcng9IjYwIiBmaWxsPSIjZjVmMGZmIi8+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNzAgMTE1KSByb3RhdGUoLTgpIj48cGF0aCBkPSJNNDAgMTkwcTc1LTIwIDEzMC0xMjBsODAgNDUgNzAgNTVxMzUgMjggNSA2Mkg2NXEtNTAgMC0yNS00MnoiIGZpbGw9IiNmZjhmYmQiLz48cGF0aCBkPSJNMzAgMjM1aDI5MHEzMCAwIDM1IDIwSDM1cS0yNSAwLTUtMjB6IiBmaWxsPSIjZmZmIi8+PHBhdGggZD0iTTE0NSA5NWw3NSA0Mk0xMjUgMTIwbDc1IDQwTTEwNSAxNDVsNzUgNDAiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PC9nPjx0ZXh0IHg9IjI1MCIgeT0iNDUwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjI3IiBmaWxsPSIjOGM2OGM3Ij5CQUJZIFNORUFLRVJTPC90ZXh0Pjwvc3ZnPg==",
+"teddy.svg":"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MDAgNTAwIj48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgcng9IjYwIiBmaWxsPSIjZmZmN2U5Ii8+PGcgZmlsbD0iI2I4Nzk0ZSIgc3Ryb2tlPSIjOGU1NzM4IiBzdHJva2Utd2lkdGg9IjUiPjxjaXJjbGUgY3g9IjE3MCIgY3k9IjE1MCIgcj0iNTUiLz48Y2lyY2xlIGN4PSIzMzAiIGN5PSIxNTAiIHI9IjU1Ii8+PGNpcmNsZSBjeD0iMjUwIiBjeT0iMjMwIiByPSIxMjUiLz48ZWxsaXBzZSBjeD0iMTgwIiBjeT0iMzU1IiByeD0iNjAiIHJ5PSI0NSIvPjxlbGxpcHNlIGN4PSIzMjAiIGN5PSIzNTUiIHJ4PSI2MCIgcnk9IjQ1Ii8+PC9nPjxjaXJjbGUgY3g9IjIwNSIgY3k9IjIxNSIgcj0iMTAiLz48Y2lyY2xlIGN4PSIyOTUiIGN5PSIyMTUiIHI9IjEwIi8+PGVsbGlwc2UgY3g9IjI1MCIgY3k9IjI2MCIgcng9IjQ4IiByeT0iMzgiIGZpbGw9IiNlNWFkN2QiLz48Y2lyY2xlIGN4PSIyNTAiIGN5PSIyNTAiIHI9IjEyIiBmaWxsPSIjNTkzYTJhIi8+PHBhdGggZD0iTTIzMCAyNzVxMjAgMjAgNDAgMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNTkzYTJhIiBzdHJva2Utd2lkdGg9IjciIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxwYXRoIGQ9Ik0xOTAgMTgwcTYwIDQwIDEyMCAwIiBzdHJva2U9IiNmZmQyMmUiIHN0cm9rZS13aWR0aD0iMjQiLz48dGV4dCB4PSIyNTAiIHk9IjQ1NSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXdlaWdodD0iYm9sZCIgZm9udC1zaXplPSIyOCIgZmlsbD0iI2E4NjYzZCI+Q1VERExZIFRFRERZPC90ZXh0Pjwvc3ZnPg==",
+"pink-frock.svg":"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MDAgNTAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwIiB4Mj0iMSI+PHN0b3Agc3RvcC1jb2xvcj0iI2ZmZDVlOCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZmNzliNiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIiByeD0iNjAiIGZpbGw9IiNmZmY0ZmEiLz48Y2lyY2xlIGN4PSIyNTAiIGN5PSIxNDUiIHI9IjY1IiBmaWxsPSIjZmZkNmMyIi8+PHBhdGggZD0iTTE5MCAxNDBxNjAtOTAgMTIwIDB2NDVIMTkweiIgZmlsbD0iIzZiODJjZiIvPjxwYXRoIGQ9Ik0yMjAgMTk1aDYwbDEwMCAyMDVIMTIweiIgZmlsbD0idXJsKCNnKSIvPjxwYXRoIGQ9Ik0xNTAgMzMwaDIwME0xNzUgMjg1aDE1ME0xOTUgMjQwaDExMCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjEwIiBvcGFjaXR5PSIuOCIvPjxjaXJjbGUgY3g9IjIzMCIgY3k9IjE0NSIgcj0iNiIvPjxjaXJjbGUgY3g9IjI3MCIgY3k9IjE0NSIgcj0iNiIvPjxwYXRoIGQ9Ik0yMzUgMTY4cTE1IDE0IDMwIDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzlhNTk2MCIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48dGV4dCB4PSIyNTAiIHk9IjQ1MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXdlaWdodD0iYm9sZCIgZm9udC1zaXplPSIyOCIgZmlsbD0iI2U4M2Y5MSI+QkFCWSBEUkVTUzwvdGV4dD48L3N2Zz4=",
+"romper.svg":"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MDAgNTAwIj48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgcng9IjYwIiBmaWxsPSIjZjJmOGZmIi8+PHBhdGggZD0iTTE5MCAxMTBxNjAtNTUgMTIwIDBsNjUgNTUtNDUgNjUtMzUtMjV2MTQ1aC05MFYyMDVsLTM1IDI1LTQ1LTY1eiIgZmlsbD0iIzliYzhmZiIvPjxjaXJjbGUgY3g9IjIyMCIgY3k9IjE3NSIgcj0iNyIvPjxjaXJjbGUgY3g9IjI4MCIgY3k9IjE3NSIgcj0iNyIvPjxwYXRoIGQ9Ik0yMzUgMTk4cTE1IDEyIDMwIDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzVjNzE5MCIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48Y2lyY2xlIGN4PSIyNTAiIGN5PSIyMzAiIHI9IjEzIiBmaWxsPSIjZmY3NWIyIi8+PGNpcmNsZSBjeD0iMjUwIiBjeT0iMjcwIiByPSIxMyIgZmlsbD0iI2ZmNzViMiIvPjx0ZXh0IHg9IjI1MCIgeT0iNDQ1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjI4IiBmaWxsPSIjNWI4ZWM3Ij5CQUJZIFJPTVBFUjwvdGV4dD48L3N2Zz4=",
+"blue-sneakers.svg":"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MDAgNTAwIj48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgcng9IjYwIiBmaWxsPSIjZWNmYmZmIi8+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNjUgMTE1KSByb3RhdGUoNSkiPjxwYXRoIGQ9Ik00NSAxOTBxNzUtMjAgMTM1LTEyMGw3NSA0OCA3MCA1MHEzNSAyOCA1IDYySDY1cS01MCAwLTIwLTQweiIgZmlsbD0iIzRkYTllOCIvPjxwYXRoIGQ9Ik0zNSAyMzVoMzAwcTI1IDAgMzAgMjBINDBxLTI1IDAtNS0yMHoiIGZpbGw9IiNmZmYiLz48cGF0aCBkPSJNMTUwIDkybDc1IDQ1TTEzMCAxMThsNzUgNDJNMTEwIDE0NGw3NSA0MCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjEyIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48L2c+PHRleHQgeD0iMjUwIiB5PSI0NTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtc2l6ZT0iMjciIGZpbGw9IiMyNzg1YmYiPktJRFMgUlVOTkVSUzwvdGV4dD48L3N2Zz4="};
+const BUSINESS_WHATSAPP="923099480023";
+const products=[
+{id:1,name:"Pink Party Frock",cat:"Clothes",price:1999,icon:"👗",img:"images/pink-frock.svg",badge:"TRENDING"},
+{id:2,name:"Blue Kids Co-Ord Set",cat:"Clothes",price:1999,icon:"👕",img:"images/blue-coord.svg",badge:"SUMMER"},
+{id:3,name:"Pink Baby Sneakers",cat:"Shoes",price:1499,icon:"👟",img:"images/pink-sneakers.svg",badge:"BEST"},
+{id:4,name:"Kids Blue Runners",cat:"Shoes",price:1799,icon:"👟",img:"images/blue-sneakers.svg",badge:"POPULAR"},
+{id:5,name:"Cuddly Teddy Bear",cat:"Toys",price:3410,icon:"🧸",img:"images/teddy.svg",badge:"LOVED"},
+{id:6,name:"Baby Feeding Bottle",cat:"Accessories",price:699,icon:"🍼",img:"images/bottle.svg",badge:"ESSENTIAL"},
+{id:7,name:"Little Star Cap",cat:"Accessories",price:499,icon:"🧢",img:"images/cap.svg",badge:"CUTE"},
+{id:8,name:"Sky Blue Baby Romper",cat:"Clothes",price:1599,icon:"👶",img:"images/romper.svg",badge:"NEW"}
+];
+let cart=JSON.parse(localStorage.getItem("babyworld_v4")||"[]");
+const money=n=>"Rs. "+n.toLocaleString("en-PK");
+function save(){localStorage.setItem("babyworld_v4",JSON.stringify(cart));document.getElementById("count").textContent=cart.reduce((a,p)=>a+p.qty,0)}
+function render(list=products){document.getElementById("products").innerHTML=list.map(p=>`<article class="product"><div class="pic"><span class="badge">${p.badge}</span><img src="${IMAGE_DATA[p.img.split("/").pop()]}" alt="${p.name}" loading="lazy"></div><h3>${p.name}</h3><p>Premium ${p.cat.toLowerCase()} for little stars</p><div class="row"><span class="price">${money(p.price)}</span><button class="add" onclick="add(${p.id})">Add to Cart</button></div></article>`).join("")}
+function filter(cat,btn){if(btn){document.querySelectorAll(".filters button").forEach(b=>b.classList.remove("active"));btn.classList.add("active")}render(cat==="All"?products:products.filter(p=>p.cat===cat));document.getElementById("shop").scrollIntoView({behavior:"smooth"})}
+function add(id){let p=products.find(x=>x.id===id),old=cart.find(x=>x.id===id);old?old.qty++:cart.push({...p,qty:1});save();showToast(p.name+" added to cart 💗");openCart()}
+function showToast(t){let x=document.getElementById("toast");x.textContent=t;x.classList.add("show");setTimeout(()=>x.classList.remove("show"),1800)}
+function openCart(){document.getElementById("cartModal").style.display="flex";renderCart()}
+function closeCart(){document.getElementById("cartModal").style.display="none"}
+function renderCart(){let b=document.getElementById("cartItems");if(!cart.length)b.innerHTML='<div class="empty">🧸<br>Your cart is empty.<br>Find something cute for your little star!</div>';else b.innerHTML=cart.map(p=>`<div class="cart-row"><span>${p.icon} ${p.name}</span><span><button class="qty" onclick="changeQty(${p.id},-1)">−</button> ${p.qty} <button class="qty" onclick="changeQty(${p.id},1)">+</button></span><strong>${money(p.price*p.qty)}</strong><button class="remove" onclick="removeItem(${p.id})">×</button></div>`).join("");document.getElementById("total").textContent=money(cart.reduce((s,p)=>s+p.price*p.qty,0))}
+function changeQty(id,d){let p=cart.find(x=>x.id===id);if(!p)return;p.qty+=d;if(p.qty<1)cart=cart.filter(x=>x.id!==id);save();renderCart()}
+function removeItem(id){cart=cart.filter(x=>x.id!==id);save();renderCart()}
+function checkout(){if(!cart.length){showToast("Your cart is empty!");return}closeCart();document.getElementById("checkoutModal").style.display="flex"}
+function closeCheckout(){document.getElementById("checkoutModal").style.display="none"}
+function placeOrder(e){e.preventDefault();let name=document.getElementById("name").value,phone=document.getElementById("phone").value,city=document.getElementById("city").value,address=document.getElementById("address").value;let total=cart.reduce((s,p)=>s+p.price*p.qty,0);let order={orderId:"BW"+Date.now().toString().slice(-6),name,phone,city,address,total,items:cart};localStorage.setItem("lastBabyWorldOrder",JSON.stringify(order));alert("Order placed successfully!\\n\\nOrder ID: "+order.orderId+"\\nCustomer: "+name+"\\nTotal: "+money(total)+"\\nPayment: Cash on Delivery\\n\\nThank you for shopping with Baby World 💗");cart=[];save();e.target.reset();closeCheckout()}
+document.getElementById("cartModal").addEventListener("click",e=>{if(e.target.id==="cartModal")closeCart()});
+document.getElementById("checkoutModal").addEventListener("click",e=>{if(e.target.id==="checkoutModal")closeCheckout()});
+render();save();
+
+function orderOnWhatsApp(){
+  if(!cart.length){
+    alert("Your cart is empty. Please add a product first.");
+    return;
+  }
+  const name = prompt("Customer name:");
+  if(!name) return;
+  const phone = prompt("Phone number:");
+  if(!phone) return;
+  const address = prompt("Delivery address:");
+  if(!address) return;
+
+  const lines = cart.map(item => {
+    const p = products.find(x => x.id === item.id);
+    return `• ${p.name} x ${item.qty} — ${money(p.price * item.qty)}`;
+  }).join("\n");
+
+  const total = cart.reduce((sum,item) => {
+    const p = products.find(x => x.id === item.id);
+    return sum + p.price * item.qty;
+  }, 0);
+
+  const message =
+`🛍️ *Baby World New Order*
+
+👤 Name: ${name}
+📱 Phone: ${phone}
+📍 Address: ${address}
+
+🛒 *Products:*
+${lines}
+
+💰 *Total: ${money(total)}*
+🚚 Payment: Cash on Delivery
+
+Please confirm my order.`;
+
+  window.open(`https://wa.me/${BUSINESS_WHATSAPP}?text=${encodeURIComponent(message)}`, "_blank");
+}
+
+</script>
+
+<div class="wa-cta">
+  <button onclick="orderOnWhatsApp()">📱 Order on WhatsApp</button>
+</div>
+</body>
 </html>
