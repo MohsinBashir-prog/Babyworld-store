@@ -1,1 +1,1 @@
-![image alt](https://github.com/MohsinBashir-prog/Babyworld-store/blob/9d0612729e9d85ff5eab9ef2fb19a15a4e4dab1f/new-product-01.jpg)
+![image alt](https://github.com/MohsinBashir-prog/Babyworld-store/blob/c753019a7f0454955564f412343423fb1b13ac44/WhatsApp%20Image%202026-08-14%20at%2010.40.17%20PM.jpeg)
