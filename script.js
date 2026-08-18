@@ -30,7 +30,9 @@ function render(){
 
   productsEl.innerHTML=list.map(p=>`
     <article class="product">
-      <div class="product-pic">${p.image ? `<img src="${p.image}" alt="${p.name}">` : p.icon}</div>
+      <div class="product-pic" onclick="openImage('${p.image || ""}')">
+  ${p.image ? `<img src="${p.image}" alt="${p.name}">` : p.icon}
+</div>
       <h3>${p.name}</h3>
       <p>${p.category} • ${p.age || ""}</p>
 <div class="price">
@@ -40,6 +42,20 @@ function render(){
       <button class="primary-btn" onclick="addToCart(${p.id})">Add to Cart</button>
     </article>
   `).join("") || `<div class="empty">No products found.</div>`;
+
+  function openImage(image){
+  if(!image)return;
+
+  const box=document.createElement("div");
+  box.className="image-popup";
+  box.innerHTML=`
+    <div class="image-popup-bg" onclick="this.parentElement.remove()"></div>
+    <img src="${image}" onclick="event.stopPropagation()">
+    <button onclick="this.parentElement.remove()">×</button>
+  `;
+
+  document.body.appendChild(box);
+}
 }
 
 function addToCart(id){
