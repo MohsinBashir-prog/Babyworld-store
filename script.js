@@ -1,7 +1,7 @@
 const WHATSAPP="923099480023";
 
 const products=[
-  {id:1,name:"Product 1",category:"Clothes",icon:"👗",image:"WhatsApp Image 2026-08-18 at 12.51.28 AM.jpeg"},
+{id:1,name:"Mint Party Frock",category:"Clothes",price:3000,oldPrice:4000,age:"5–8 years",icon:"👗",image:"WhatsApp Image 2026-08-18 at 12.51.28 AM.jpeg"},
   {id:2,name:"Product 2",category:"Clothes",icon:"👶"},
   {id:3,name:"Product 3",category:"Shoes",icon:"👟"},
   {id:4,name:"Product 4",category:"Toys",icon:"🧸"},
@@ -32,7 +32,11 @@ function render(){
     <article class="product">
       <div class="product-pic">${p.image ? `<img src="${p.image}" alt="${p.name}">` : p.icon}</div>
       <h3>${p.name}</h3>
-      <p>${p.category} • Picture and price will be added later.</p>
+      <p>${p.category} • ${p.age || ""}</p>
+<div class="price">
+  <span>Rs. ${p.price || 0}</span>
+  ${p.oldPrice ? `<del>Rs. ${p.oldPrice}</del>` : ""}
+</div>
       <button class="primary-btn" onclick="addToCart(${p.id})">Add to Cart</button>
     </article>
   `).join("") || `<div class="empty">No products found.</div>`;
