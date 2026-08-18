@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Baby World Store</title>
+  <meta name="description" content="Baby World Store — baby clothes, shoes, toys and accessories.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topbar">🧸 Welcome to Baby World • Pakistan Delivery • WhatsApp Ordering</div>
+
+  <header class="header">
+    <a class="logo" href="#">🧸 <span>Baby</span>World</a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#shop">Shop</a>
+      <a href="#categories">Categories</a>
+      <a href="#about">About</a>
+    </nav>
+    <button class="cart-btn" id="cartBtn">🛒 Cart <b id="cartCount">0</b></button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <small>BABY WORLD STORE</small>
+        <h1>Little outfits.<br><em>Big smiles.</em></h1>
+        <p>Beautiful baby clothes, tiny shoes, playful toys and everyday essentials.</p>
+        <a class="primary-btn" href="#shop">Explore Products →</a>
+      </div>
+      <div class="hero-card">
+        <div class="baby-icon">👶</div>
+        <div class="spark">✨</div>
+        <div class="hero-note">Made for little stars</div>
+      </div>
+    </section>
+
+    <section class="section" id="categories">
+      <div class="section-head">
+        <small>SHOP BY CATEGORY</small>
+        <h2>Find their <em>happy place</em></h2>
+      </div>
+      <div class="categories">
+        <button data-category="Clothes">👗<strong>Baby Clothes</strong><span>Frocks, sets & rompers</span></button>
+        <button data-category="Shoes">👟<strong>Baby Shoes</strong><span>Tiny comfy steps</span></button>
+        <button data-category="Toys">🧸<strong>Toys</strong><span>Play & smile</span></button>
+        <button data-category="Accessories">🍼<strong>Accessories</strong><span>Daily essentials</span></button>
+      </div>
+    </section>
+
+    <section class="section" id="shop">
+      <div class="section-head">
+        <small>PRODUCT COLLECTION</small>
+        <h2>Your products <em>start here</em></h2>
+        <p class="muted">No pictures or prices are added yet. We will add them one by one.</p>
+      </div>
+
+      <div class="tools">
+        <div id="filters">
+          <button class="active" data-filter="All">All</button>
+          <button data-filter="Clothes">Clothes</button>
+          <button data-filter="Shoes">Shoes</button>
+          <button data-filter="Toys">Toys</button>
+          <button data-filter="Accessories">Accessories</button>
+        </div>
+        <input id="search" type="search" placeholder="Search products...">
+      </div>
+
+      <div class="products" id="products"></div>
+    </section>
+
+    <section class="features">
+      <div>🚚<strong>Pakistan Delivery</strong><span>COD available</span></div>
+      <div>💗<strong>Carefully Selected</strong><span>For little stars</span></div>
+      <div>📱<strong>WhatsApp Ordering</strong><span>Simple & direct</span></div>
+      <div>🔒<strong>Easy Checkout</strong><span>Quick order details</span></div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="about-icon">🧸</div>
+      <div>
+        <small>WHY BABY WORLD?</small>
+        <h2>A little store with a <em>big heart.</em></h2>
+        <p>We are building your store from a clean starting point. Product pictures, names and prices can now be added safely without old image paths getting mixed up.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>🧸 <b>BabyWorld</b> • © 2026 • Pakistan</footer>
+
+  <div class="overlay" id="overlay"></div>
+  <aside class="cart-drawer" id="cartDrawer">
+    <div class="drawer-head">
+      <h2>Your Cart 🛒</h2>
+      <button id="closeCart">×</button>
+    </div>
+    <div id="cartItems" class="cart-items"></div>
+    <div class="drawer-foot">
+      <strong id="cartTotal">No prices added</strong>
+      <button class="primary-btn" id="whatsappOrder">Order on WhatsApp →</button>
+    </div>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
