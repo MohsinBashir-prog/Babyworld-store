@@ -1,7 +1,7 @@
 const WHATSAPP="923099480023";
 
 const products=[
-  {id:1,name:"Product 1",category:"Clothes",icon:"👗"},
+  {id:1,name:"Product 1",category:"Clothes",icon:"👗",image:"WhatsApp Image 2026-08-18 at 12.51.28 AM.jpeg"},
   {id:2,name:"Product 2",category:"Clothes",icon:"👶"},
   {id:3,name:"Product 3",category:"Shoes",icon:"👟"},
   {id:4,name:"Product 4",category:"Toys",icon:"🧸"},
