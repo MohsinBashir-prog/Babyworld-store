@@ -21,8 +21,10 @@ const drawer=document.getElementById("cartDrawer");
 const overlay=document.getElementById("overlay");
 const cartItems=document.getElementById("cartItems");
 
+
 function render(){
   const q=search.value.trim().toLowerCase();
+
   const list=products.filter(p=>
     (activeFilter==="All"||p.category===activeFilter) &&
     `${p.name} ${p.category}`.toLowerCase().includes(q)
@@ -30,26 +32,37 @@ function render(){
 
   productsEl.innerHTML=list.map(p=>`
     <article class="product">
-      <div class="product-pic">
-  ${p.image ? `<a href="${p.image}" target="_blank"><img src="${p.image}" alt="${p.name}"></a>` : p.icon}
-</div>
-  ${p.image ? `<img src="${p.image}" alt="${p.name}">` : p.icon}
-</div>
+
+      <div class="product-pic" onclick="openImage('${p.image || ""}')">
+        ${p.image
+          ? `<img src="${p.image}" alt="${p.name}">`
+          : p.icon
+        }
+      </div>
+
       <h3>${p.name}</h3>
+
       <p>${p.category} • ${p.age || ""}</p>
-<div class="price">
-  <span>Rs. ${p.price || 0}</span>
-  ${p.oldPrice ? `<del>Rs. ${p.oldPrice}</del>` : ""}
-</div>
-      <button class="primary-btn" onclick="addToCart(${p.id})">Add to Cart</button>
+
+      <div class="price">
+        <span>Rs. ${p.price || 0}</span>
+        ${p.oldPrice ? `<del>Rs. ${p.oldPrice}</del>` : ""}
+      </div>
+
+      <button class="primary-btn" onclick="addToCart(${p.id})">
+        Add to Cart
+      </button>
+
     </article>
   `).join("") || `<div class="empty">No products found.</div>`;
-
-  function openImage(image){
+}
+  
+function openImage(image){
   if(!image)return;
 
   const box=document.createElement("div");
   box.className="image-popup";
+
   box.innerHTML=`
     <div class="image-popup-bg" onclick="this.parentElement.remove()"></div>
     <img src="${image}" onclick="event.stopPropagation()">
@@ -58,8 +71,6 @@ function render(){
 
   document.body.appendChild(box);
 }
-}
-
 function addToCart(id){
   const product=products.find(p=>p.id===id);
   cart.push(product);
