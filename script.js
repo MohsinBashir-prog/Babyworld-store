@@ -2,6 +2,7 @@ const WHATSAPP="923099480023";
 
 const products=[
 {id:1,name:"Mint Party Frock",category:"Clothes",price:3000,oldPrice:4000,age:"5–8 years",icon:"👗",image:"WhatsApp Image 2026-08-18 at 12.51.28 AM.jpeg"},
+  {id:1,name:"Baby Boys 4-piece suit set",category:"Clothes",price:200,oldprice:4000,age:"2-4 years",icon:"🩳👕",image:"WhatsApp Image 2026-08-18 at 12.51.28 AM.jpeg"},
   {id:2,name:"Brown Baby Shoes",category:"Shoes",price:999,age:"Newborn–1 year",icon:"👟",image:"WhatsApp Image 2026-08-14 at 10.39.45 PM.jpeg"},
 {id:3,name:"Brown Baby Shoes",category:"Shoes",price:999,age:"Newborn–1 year",icon:"👟",image:"WhatsApp Image 2026-08-14 at 10.39.47 PM.jpeg"},
 {id:7,name:"Brown Baby Shoes",category:"Shoes",price:999,age:"Newborn–1 year",icon:"👟",image:"WhatsApp Image 2026-08-14 at 10.39.48 PM.jpeg"},
