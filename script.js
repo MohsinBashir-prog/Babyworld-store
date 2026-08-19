@@ -30,7 +30,9 @@ function render(){
 
   productsEl.innerHTML=list.map(p=>`
     <article class="product">
-      <div class="product-pic" onclick="openImage('${p.image || ""}')">
+      <div class="product-pic">
+  ${p.image ? `<a href="${p.image}" target="_blank"><img src="${p.image}" alt="${p.name}"></a>` : p.icon}
+</div>
   ${p.image ? `<img src="${p.image}" alt="${p.name}">` : p.icon}
 </div>
       <h3>${p.name}</h3>
