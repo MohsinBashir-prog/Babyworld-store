@@ -9,7 +9,7 @@ const products=[
   
   {id:4,name:"Product 4",category:"Toys",icon:"🧸"},
   {id:5,name:"Product 5",category:"Accessories",icon:"🍼"},
-  {id:6,name:"Red Girls Party Frock Whit Shoes",category:"Clothes",price:4500,oldprice:6000,age:"4-8 years",icon:"👗",image:"ChatGPT Image Aug 20,2026 12_24_41 AM.png"},
+  {id:6,name:"Red Girls Party Frock Whit Shoes",category:"Clothes",price:4500,oldprice:6000,age:"4-8 years",icon:"👗",image:"ChatGPT Image Aug 20,2026,12_24_41 AM.png"},
   {id:7,name:"Product 7",category:"Shoes",icon:"👟"},
   {id:8,name:"Product 8",category:"Toys",icon:"🧸"}
 ];
