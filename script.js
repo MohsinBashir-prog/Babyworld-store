@@ -3,6 +3,7 @@ const WHATSAPP="923099480023";
 const products=[
 {id:1,name:"Mint Party Frock",category:"Clothes",price:3000,oldPrice:4000,age:"5–8 years",icon:"👗",image:"WhatsApp Image 2026-08-18 at 12.51.28 AM.jpeg"},
   {id:1,name:"Baby Boys 4-piece suit set",category:"Clothes",price:2000,oldprice:4000,age:"2-4 years",icon:"🩳👕",image:"WhatsApp Image 2026-08-15 at 9.12.49 PM.jpeg"},
+  {id:1,name:"Track Suit set",category:"Clothes",price:2000,oldprice:3000,age:"6 months-4 years",icon:"👕",image:"ChatGPT Imsge Aug 20,2026,11_28_46 PM.png"},
   {id:2,name:"Brown Baby Shoes",category:"Shoes",price:999,age:"Newborn–1 year",icon:"👟",image:"WhatsApp Image 2026-08-14 at 10.39.45 PM.jpeg"},
 {id:3,name:"Brown Baby Shoes",category:"Shoes",price:999,age:"Newborn–1 year",icon:"👟",image:"WhatsApp Image 2026-08-14 at 10.39.47 PM.jpeg"},
 {id:7,name:"Brown Baby Shoes",category:"Shoes",price:999,age:"Newborn–1 year",icon:"👟",image:"WhatsApp Image 2026-08-14 at 10.39.48 PM.jpeg"},
@@ -10,6 +11,7 @@ const products=[
   {id:4,name:"Product 4",category:"Toys",icon:"🧸"},
   {id:5,name:"Product 5",category:"Accessories",icon:"🍼"},
 {id:6,name:"Red Girls Party Frock With Shoes",category:"Clothes",price:4500,oldPrice:6000,age:"4-8 years",icon:"👗",image:"ChatGPT Image Aug 20, 2026, 12_24_41 AM.png"},
+  {id:6,name:"Maxi",category:"Clothes",price:4495,oldprice:7000,age:"4-12 years",icon:"👗",image:"ChatGPT Image Aug 20,2026,11_39_17 PM.png
   {id:7,name:"Product 7",category:"Shoes",icon:"👟"},
   {id:8,name:"Product 8",category:"Toys",icon:"🧸"}
 ];
