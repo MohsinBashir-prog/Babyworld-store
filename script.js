@@ -79,6 +79,16 @@ const products = [
     image: "ChatGPT Image Aug 20, 2026, 11_39_17 PM.png"
   },
   {
+    id: 13,
+    name: "Maxi",
+    category: "Clothes",
+    price: 9000,
+    oldprice: 12000,
+    age: "8-12 years",
+    icon: "👗",
+    image: "WhatsAPP Image 2026-08-21 at 11.21.14 PM.jpeg"
+  },
+  {
     id: 9,
     name: "Product 4",
     category: "Toys",
@@ -105,7 +115,8 @@ const products = [
     category: "Toys",
     price: 0,
     icon: "🧸"
-  }
+  },
+  
 ];
 
 let cart = [];
