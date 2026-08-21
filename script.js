@@ -86,7 +86,27 @@ const products = [
     oldprice: 12000,
     age: "8-12 years",
     icon: "👗",
-    image: "WhatsAPP Image 2026-08-21 at 11.21.14PM.jpeg"
+    image: "WhatsApp Image 2026-08-21 at 11.21.14 PM.jpeg"
+  },
+  {
+    id: 14,
+    name: "suit",
+    category: "Clothes", 
+    price: 3000,
+    oldprice: 4500,
+    age: "4-8 years",
+    icon: "👗",
+    image: "WhatsApp Imge 2026-08-21 at 11.21.15 PM (1).jpeg"
+  },
+  {
+    id: 15,
+    name: "sharara suit",
+      category: "Clothes",
+    price: 3500,
+    oldprice: 4500,
+    age: "4-8 years",
+    icon: "👗",
+    image: "WhatsApp Image 2026-08-21 at 11.21.15 PM.jpeg"
   },
   {
     id: 9,
