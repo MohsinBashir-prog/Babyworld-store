@@ -96,7 +96,7 @@ const products = [
     oldprice: 4500,
     age: "4-8 years",
     icon: "👗",
-    image: "WhatsApp Image 2026-08-21 at 11.21.15 PM (1).jpeg"
+    image: "WhatsApp Image 2026-08-21 at 11.21.15 PM(1).jpeg"
   },
   {
     id: 15,
