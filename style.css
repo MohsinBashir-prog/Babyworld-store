@@ -97,3 +97,16 @@ footer{text-align:center;padding:28px;background:#24212a;color:#fff}
   from{transform:scale(.7);opacity:0}
   to{transform:scale(1);opacity:1}
 }
+
+.whatsapp-btn,
+.whatsapp-button,
+.whatsapp-float,
+#whatsapp-btn {
+  display: flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  position: fixed !important;
+  right: 20px !important;
+  bottom: 20px !important;
+  z-index: 99999 !important;
+}
