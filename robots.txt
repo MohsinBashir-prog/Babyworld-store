@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mohsinbashir-prog.github.io/Babyworld-store/sitemap.xml
