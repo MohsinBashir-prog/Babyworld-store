@@ -3,8 +3,8 @@ const WHATSAPP = "923099480023";
 const products = [
   {
     id: 1,
-    name: "Mint Party Frock",
-    category: "Clothes",
+    name: "Mint Green Girls Party Frock",
+    category: "Girls Dresses",
     price: 3000,
     oldPrice: 4000,
     age: "5–8 years",
@@ -13,28 +13,28 @@ const products = [
   },
   {
     id: 2,
-    name: "Baby Boys 4-piece suit set",
-    category: "Clothes",
+    name: "Baby Boys 4-Piece Suit Set",
+    category: "Boys Clothes",
     price: 2000,
     oldPrice: 4000,
-    age: "2-4 years",
+    age: "2–4 years",
     icon: "🩳👕",
     image: "WhatsApp Image 2026-08-15 at 9.12.49 PM.jpeg"
   },
   {
     id: 3,
-    name: "Track Suit Set",
-    category: "Clothes",
+    name: "Kids Track Suit Set",
+    category: "Kids Clothes",
     price: 2000,
     oldPrice: 3000,
-    age: "6 months-4 years",
+    age: "6 months–4 years",
     icon: "👕",
     image: "ChatGPT Image Aug 20, 2026, 11_28_46 PM.png"
   },
   {
     id: 4,
-    name: "Brown Baby Shoes",
-    category: "Shoes",
+    name: "Brown Baby Shoes for Newborns",
+    category: "Baby Shoes",
     price: 999,
     age: "Newborn–1 year",
     icon: "👟",
@@ -42,8 +42,8 @@ const products = [
   },
   {
     id: 5,
-    name: "Brown Baby Shoes",
-    category: "Shoes",
+    name: "Brown Baby Shoes for Infants",
+    category: "Baby Shoes",
     price: 999,
     age: "Newborn–1 year",
     icon: "👟",
@@ -51,8 +51,8 @@ const products = [
   },
   {
     id: 6,
-    name: "Brown Baby Shoes",
-    category: "Shoes",
+    name: "Brown Baby Shoes for Little Boys & Girls",
+    category: "Baby Shoes",
     price: 999,
     age: "Newborn–1 year",
     icon: "👟",
@@ -61,83 +61,83 @@ const products = [
   {
     id: 7,
     name: "Red Girls Party Frock With Shoes",
-    category: "Clothes",
+    category: "Girls Dresses",
     price: 4500,
     oldPrice: 6000,
-    age: "4-8 years",
+    age: "4–8 years",
     icon: "👗",
     image: "ChatGPT Image Aug 20, 2026, 12_24_41 AM.png"
   },
   {
     id: 8,
-    name: "Maxi",
-    category: "Clothes",
+    name: "Girls Maxi Dress",
+    category: "Girls Dresses",
     price: 4495,
     oldPrice: 7000,
-    age: "4-12 years",
+    age: "4–12 years",
     icon: "👗",
     image: "ChatGPT Image Aug 20, 2026, 11_39_17 PM.png"
   },
   {
     id: 13,
-    name: "Maxi",
-    category: "Clothes",
+    name: "Girls Maxi Dress",
+    category: "Girls Dresses",
     price: 9000,
-    oldprice: 12000,
-    age: "8-12 years",
+    oldPrice: 12000,
+    age: "8–12 years",
     icon: "👗",
     image: "WhatsApp Image 2026-08-21 at 11.21.14 PM.jpeg"
   },
   {
     id: 14,
-    name: "suit",
-    category: "Clothes", 
+    name: "Girls Party Suit",
+    category: "Girls Clothes",
     price: 3000,
-    oldprice: 4500,
-    age: "4-8 years",
+    oldPrice: 4500,
+    age: "4–8 years",
     icon: "👗",
     image: "WhatsApp Image 2026-08-21 at 11.21.15 PM (1).jpeg"
   },
   {
     id: 15,
-    name: "sharara suit",
-      category: "Clothes",
+    name: "Girls Sharara Suit",
+    category: "Girls Clothes",
     price: 3500,
-    oldprice: 4500,
-    age: "4-8 years",
+    oldPrice: 4500,
+    age: "4–8 years",
     icon: "👗",
     image: "WhatsApp Image 2026-08-21 at 11.21.15 PM.jpeg"
   },
   {
     id: 9,
-    name: "Product 4",
+    name: "Kids Toy",
     category: "Toys",
     price: 0,
     icon: "🧸"
   },
   {
     id: 10,
-    name: "Product 5",
-    category: "Accessories",
+    name: "Baby Feeding Accessories",
+    category: "Baby Accessories",
     price: 0,
     icon: "🍼"
   },
   {
     id: 11,
-    name: "Product 7",
-    category: "Shoes",
+    name: "Kids Shoes",
+    category: "Kids Shoes",
     price: 0,
     icon: "👟"
   },
   {
     id: 12,
-    name: "Product 8",
+    name: "Kids Toy",
     category: "Toys",
     price: 0,
     icon: "🧸"
-  },
-  
+  }
 ];
+
 
 let cart = [];
 let activeFilter = "All";
