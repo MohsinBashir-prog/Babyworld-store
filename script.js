@@ -4,7 +4,7 @@ const products = [
   {
     id: 1,
     name: "Mint Green Girls Party Frock",
-    category: "Girls Dresses",
+    category: "Clothes",
     price: 3000,
     oldPrice: 4000,
     age: "5–8 years",
@@ -14,7 +14,7 @@ const products = [
   {
     id: 2,
     name: "Baby Boys 4-Piece Suit Set",
-    category: "Boys Clothes",
+    category: "Clothes",
     price: 2000,
     oldPrice: 4000,
     age: "2–4 years",
@@ -24,7 +24,7 @@ const products = [
   {
     id: 3,
     name: "Kids Track Suit Set",
-    category: "Kids Clothes",
+    category: "Clothes",
     price: 2000,
     oldPrice: 3000,
     age: "6 months–4 years",
@@ -34,7 +34,7 @@ const products = [
   {
     id: 4,
     name: "Brown Baby Shoes for Newborns",
-    category: "Baby Shoes",
+    category: "Shoes",
     price: 999,
     age: "Newborn–1 year",
     icon: "👟",
@@ -43,7 +43,7 @@ const products = [
   {
     id: 5,
     name: "Brown Baby Shoes for Infants",
-    category: "Baby Shoes",
+    category: "Shoes",
     price: 999,
     age: "Newborn–1 year",
     icon: "👟",
@@ -52,7 +52,7 @@ const products = [
   {
     id: 6,
     name: "Brown Baby Shoes for Little Boys & Girls",
-    category: "Baby Shoes",
+    category: "Shoes",
     price: 999,
     age: "Newborn–1 year",
     icon: "👟",
@@ -61,7 +61,7 @@ const products = [
   {
     id: 7,
     name: "Red Girls Party Frock With Shoes",
-    category: "Girls Dresses",
+    category: "Clothes",
     price: 4500,
     oldPrice: 6000,
     age: "4–8 years",
@@ -71,7 +71,7 @@ const products = [
   {
     id: 8,
     name: "Girls Maxi Dress",
-    category: "Girls Dresses",
+    category: "Clothes",
     price: 4495,
     oldPrice: 7000,
     age: "4–12 years",
@@ -81,7 +81,7 @@ const products = [
   {
     id: 13,
     name: "Girls Maxi Dress",
-    category: "Girls Dresses",
+    category: "Clothes",
     price: 9000,
     oldPrice: 12000,
     age: "8–12 years",
@@ -91,7 +91,7 @@ const products = [
   {
     id: 14,
     name: "Girls Party Suit",
-    category: "Girls Clothes",
+    category: "Clothes",
     price: 3000,
     oldPrice: 4500,
     age: "4–8 years",
@@ -101,7 +101,7 @@ const products = [
   {
     id: 15,
     name: "Girls Sharara Suit",
-    category: "Girls Clothes",
+    category: "Clothes",
     price: 3500,
     oldPrice: 4500,
     age: "4–8 years",
@@ -118,14 +118,14 @@ const products = [
   {
     id: 10,
     name: "Baby Feeding Accessories",
-    category: "Baby Accessories",
+    category: "Accessories",
     price: 0,
     icon: "🍼"
   },
   {
     id: 11,
     name: "Kids Shoes",
-    category: "Kids Shoes",
+    category: "Shoes",
     price: 0,
     icon: "👟"
   },
