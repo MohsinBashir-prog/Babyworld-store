@@ -149,6 +149,36 @@ const drawer = document.getElementById("cartDrawer");
 const overlay = document.getElementById("overlay");
 const cartItems = document.getElementById("cartItems");
 const cartTotal = document.getElementById("cartTotal");
+// Product SEO Schema
+const productSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Baby World Store Products",
+  "itemListElement": products
+    .filter(p => p.price && p.image)
+    .map((p, index) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "item": {
+        "@type": "Product",
+        "name": p.name,
+        "image": new URL(p.image, window.location.href).href,
+        "category": p.category,
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "PKR",
+          "price": p.price,
+          "availability": "https://schema.org/InStock",
+          "url": window.location.href
+        }
+      }
+    }))
+};
+
+const schemaScript = document.createElement("script");
+schemaScript.type = "application/ld+json";
+schemaScript.textContent = JSON.stringify(productSchema);
+document.head.appendChild(schemaScript);
 
 
 function render() {
