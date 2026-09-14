@@ -108,6 +108,16 @@ const products = [
     icon: "👗",
     image: "WhatsApp Image 2026-08-21 at 11.21.15 PM.jpeg"
   },
+    {
+    id: 16,
+    name: "Kids Poppa & Markhor Eid Outfit Set 1–5Y",
+    category: "Clothes",
+    price: 1785,
+    oldprice: 2500,
+    age: "1–5 years",
+    icon: "👗",
+    image: "markaz-kids-poppa-markhor-eid-outfit-set-1-5y-pitch.png"
+  },
   {
     id: 9,
     name: "Kids Toy",
