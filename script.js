@@ -119,6 +119,16 @@ const products = [
     image: "markaz-kids-poppa-markhor-eid-outfit-set-1-5y-pitch.png"
   },
   {
+  id: 17,
+  name: "Kids Fleece Dino Print Suit Yellow Orange Blue red",
+  category: "Clothes",
+  price: 1602,
+  oldPrice: 2000,
+  age: "1-5 years",
+  icon: "👕",
+  image: "markaz-kids-fleece-dino-print-suit-yellow-orange-blue-red-1-5yr-pitch.png"
+},
+  {
     id: 9,
     name: "Kids Toy",
     category: "Toys",
