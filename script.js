@@ -129,6 +129,96 @@ const products = [
   image: "markaz-kids-fleece-dino-print-suit-yellow-orange-blue-red-1-5yr-pitch.png"
 },
   {
+    id:18,
+    name:"2-pcs-girl-s-stitched-cotton-jersey-printed-pajama-and-shirt",
+    category: "Clothes",
+    price: 2230,
+    age: "1-6 years",
+    icon:"👗",
+    image:"markaz-2-pcs-girl-s-stitched-cotton-jersey-printed-pajama-and-shirt-pitch.png"
+  },
+  {
+    id:19,
+    name:"girl-s-stitched-jersey-printed-pajama-and-shirt",
+    category:"Clothes",
+    price:2050,
+    age:"1-6 years",
+    icon:"👗",
+    image:"markaz-2-pcs-girl-s-stitched-jersey-printed-pajama-and-shirt-pitch.png"
+  },
+  {
+    id:20,
+    name:"black-mesh-floral-embroidered-tutu-dress-for-girls",
+    category:"Clothes",
+    price: 6003,
+    age:"8-12 years",
+    icon:"👗",
+    image:"markaz-black-mesh-floral-embroidered-tutu-dress-for-girls-pitch.png"
+  },
+  {
+    id:21,
+    name:"girls-brown-button-co-ord-set-wide-leg-pants",
+    category:"Clothes",
+    price: 2050,
+    age:"5-10 years",
+    icon:"👗",
+    image:"markaz-girls-brown-button-co-ord-set-wide-leg-pants-pitch.png"
+  },
+  {
+    id:22,
+    name:"girls-cotton-tracksuit-pink",
+    category:"Clothes",
+    price: 2999,
+    age:"1-4 years",
+    icon:"👗",
+    image:"markaz-girls-cotton-tracksuit-pink-1-2-years-3-4-years-pitch.png"
+  },
+  {
+    id:23,
+    name:"girls-georgette-bow-top-maxi-set-green-white",
+    category:"Clothes",
+    price: 4752,
+    age:"5-12 years",
+    icon:"👗",
+    image:"markaz-girls-georgette-bow-top-maxi-set-green-white-pitch.png"
+  },
+  {
+    id:24,
+    name:"kids-brown-fleece-jacket-trouser-set-2pcs",
+    category:"Clothes",
+    price: 3672,
+    age:"2-6 yaers",
+    icon:"👗",
+    image:"markaz-kids-brown-fleece-jacket-trouser-set-2pcs-pitch.png"
+  },
+  {
+    id:25,
+    name:"kids-sleeveless-ruffled-bow-dress-butterfly-print-color",
+    category:"Clothes",
+    price: 2897,
+    age:"6 months-3 years",
+    icon:"👗",
+    image:"arkaz-kids-sleeveless-ruffled-bow-dress-butterfly-print-multi-color-pitch.png"
+  },
+  {
+    id:26,
+    name:"princess-dress-teal-floral-lace-embroidery",
+    category:"Clothes",
+    price: 6061,
+    age:"6-12 years",
+    icon:"👗",
+    image:"markaz-princess-dress-teal-gray-floral-lace-embroidery-pitch.png"
+  },
+  {
+    id:27,
+    name:"red-fleece-tracksuit-for-kids-1-10-years-heart-rose-print",
+    category:"Clothes",
+    price: 2502,
+    age:"1-10 years",
+    icon:"👕",
+   imege:"markaz-red-fleece-tracksuit-for-kids-1-10-years-heart-rose-print-pitch.png"
+  },
+ {
     id: 9,
     name: "Kids Toy",
     category: "Toys",
