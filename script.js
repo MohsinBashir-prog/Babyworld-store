@@ -126,7 +126,7 @@ const products = [
   oldPrice: 2000,
   age: "1-5 years",
   icon: "👕",
-  image: "markaz-kids-fleece-dino-print-suit-yellow-orange-blue-red-1-5yr-pitch.png"
+  image:"markaz-kids-fleece-dino-print-suit-yellow-orange-blue-1-5yr-pitch.png"
 },
   {
     id:18,
@@ -198,7 +198,7 @@ const products = [
     price: 2897,
     age:"6 months-3 years",
     icon:"👗",
-    image:"arkaz-kids-sleeveless-ruffled-bow-dress-butterfly-print-multi-color-pitch.png"
+    image:"markaz-kids-sleeveless-ruffled-bow-dress-butterfly-print-multi-color-pitch.png"
   },
   {
     id:26,
@@ -216,7 +216,7 @@ const products = [
     price: 2502,
     age:"1-10 years",
     icon:"👕",
-   imege:"markaz-red-fleece-tracksuit-for-kids-1-10-years-heart-rose-print-pitch.png"
+   image:"markaz-red-fleece-tracksuit-for-kids-1-10-years-heart-rose-print-pitch.png"
   },
  {
     id: 9,
